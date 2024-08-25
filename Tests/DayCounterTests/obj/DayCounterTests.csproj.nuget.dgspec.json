@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/Tests/DayCounterTests/DayCounterTests.csproj": {}
+  },
+  "projects": {
+    "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/DayCounter/DayCounter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/DayCounter/DayCounter.csproj",
+        "projectName": "DayCounter",
+        "projectPath": "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/DayCounter/DayCounter.csproj",
+        "packagesPath": "/Users/emilliethiselton/.nuget/packages/",
+        "outputPath": "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/DayCounter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emilliethiselton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/Tests/DayCounterTests/DayCounterTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/Tests/DayCounterTests/DayCounterTests.csproj",
+        "projectName": "DayCounterTests",
+        "projectPath": "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/Tests/DayCounterTests/DayCounterTests.csproj",
+        "packagesPath": "/Users/emilliethiselton/.nuget/packages/",
+        "outputPath": "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/Tests/DayCounterTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emilliethiselton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/DayCounter/DayCounter.csproj": {
+                "projectPath": "/Users/emilliethiselton/Documents/Projects/Design.com/DayCounter/DayCounter/DayCounter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "XUnit": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
